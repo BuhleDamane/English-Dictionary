@@ -1,0 +1,18 @@
+body{
+    background-color: yellow;
+}
+.navbar{
+    background-color: orange;
+    height: 90px;
+}
+.dictionary-box{
+    background-color: yellow;
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 24px; 
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    padding: 10px 20px;
+}
