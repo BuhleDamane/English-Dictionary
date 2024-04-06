@@ -84,6 +84,7 @@ body{
     .navbar-brand{
         font-size: 25px;
         margin-left: -5px;
+        font-weight: 800;
     }
     .login{
         font-size: 10px;
