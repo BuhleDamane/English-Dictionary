@@ -40,15 +40,16 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
-.city{
+#cityDisplay{
     font-size: 50px;
     font-family: "Playfair Display", serif;
     font-weight: 700;
 }
-.date{
+.displayTime{
     font-family: "poppins", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 .word-search{
     font-family: "poppins", sans-serif;
@@ -107,7 +108,7 @@ body{
     .city{
         font-size: 35px;
     }
-    .date{
+    .displayTime{
         font-size: 15px;
     }
     .word-search{
