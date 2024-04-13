@@ -43,26 +43,26 @@ body{
     border: 3px solid #ae9cff;
     font-size: 16px;
 }
-.results{
+.result{
     position: relative;
 }
-.results h3{
+.result h3{
     font-size: 30px;
     color: 1f194c;
 }
-.results .word{
+.result .word{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.results button{
+.result button{
     background: transparent;
     border: 0;
     color: #ae9cff;
     outline: 0;
     font-size: 18px;
 }
-.results .details{
+.result .details{
 display: flex;
 gap: 10px;
 color: b3b6d4;

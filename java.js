@@ -31,13 +31,13 @@ ${data[0].meanings[0].definitions[0].definition}
 ${data[0].meanings[0].definitions[0].example || ""}
 </p>`;
 
-sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
+sound.setAttribute("src", `${data[0].phonetics[0].audio}`);
 })
 .catch( () =>{
-    result.innerHTML = `<h3 class="error">Couldn't find the word</h3>`
-})
+    result.innerHTML = `<h3 class="error">Couldn't find the word</h3>`;
+});
 });
 
 function playSound(){
-    sound.play()
-};
+    sound.play();
+}
