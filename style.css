@@ -7,7 +7,7 @@
     font-family: "poppins", sans-serif;
 }
 body{
-    background-color: #ae9cff;
+    background-color: rgb(231, 31, 98);
 }
 .container{
     background-color: #ffff;
@@ -29,7 +29,7 @@ body{
     width: 70%;
     border: 0;
     outline: 0;
-    border: 3px solid #ae9cff;
+    border: 3px solid rgb(214, 78, 123);
     font-size: 16px;
 
 }
@@ -38,9 +38,9 @@ body{
     width: 30%;
     border: 0;
     outline: 0;
-    background-color: #ae9cff;
+    background-color: rgb(214, 78, 123);
     color: #ffff;
-    border: 3px solid #ae9cff;
+    border: 3px solid rgb(231, 31, 98);
     font-size: 16px;
 }
 .result{
@@ -83,4 +83,16 @@ font-size: 14px;
     margin-top: 50px;
     font-size: 13px;
     text-align: center;
+}
+@media (max-width: 576px){
+    .container{
+        background-color: #ffff;
+        width: 350px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 80px 50px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
 }
